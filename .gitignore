@@ -1,4 +1,8 @@
 # Byte-compiled / optimized / DLL files
+# Local user-provided reference input and derived reports (not cleared for redistribution).
+/test-data/r_pp_ic1805.fit
+/reports/
+
 __pycache__/
 *.py[codz]
 *$py.class

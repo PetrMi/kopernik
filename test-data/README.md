@@ -10,3 +10,11 @@ Reference data should be added deliberately and documented with:
 - whether the file may be redistributed with the repository.
 
 Do not commit private, sensitive or redistribution-restricted data.
+
+## Local reference input
+
+`r_pp_ic1805.fit` is supplied locally by the project owner to verify structural
+FITS validation and header reporting. Its provenance and redistribution license
+have not been established. It is ignored by Git and must not be uploaded or
+committed. Header values are reported as declarations, not independently verified
+scientific facts. Automated tests use synthetic fixtures instead.

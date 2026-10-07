@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kopernik"
+version = "0.1.0"
+description = "Local FITS structural validation and header reports"
+requires-python = ">=3.12"
+dependencies = ["astropy==8.0.1"]
+
+[project.scripts]
+kopernik = "kopernik.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["kopernik*"]
