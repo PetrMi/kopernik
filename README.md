@@ -100,6 +100,7 @@ The implementation shall be developed by the Kopernik agent according to `AGENTS
 ## Wishlist
 
 - [x] v0.1 — FITS header report
+- [ ] small FITS image preview in markdown report
 - [ ] FITS star count report
 - [ ] Measure FWHM
 - [ ] Measure star eccentricity / elongation
